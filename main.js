@@ -3,18 +3,18 @@
 // უკან  კონსოლში დამიბეჭდოს "happy new year"
 //  და არ დაგავიწყდეთ რომ ამის შემდეგ ფუნქცია უნდა გაჩერდეს
 
-function newYear(start) {
-  let num = start;
-  const interval = setInterval(() => {
-    console.log(num);
-    if (num === 0) {
-      console.log("happy new year 🥳🥳");
-      clearInterval(interval);
-    }
-    num--;
-  }, 500);
-}
-newYear(10);
+// function newYear(start) {
+//   let num = start;
+//   const interval = setInterval(() => {
+//     console.log(num);
+//     if (num === 0) {
+//       console.log("happy new year 🥳🥳");
+//       clearInterval(interval);
+//     }
+//     num--;
+//   }, 500);
+// }
+// newYear(10);
 
 // 2)დავწეროთ ფუნქცია რომელსაც გადეცემა რაიმე პარამეტრი და არგუმენტად მიიღებს ისეთ რიცხვებს რომლის დახმარებითაც
 //  უნდა გამოვითვალო მაგალითად რამდენი წელი გვაკლდება თითოეულს პენსიამდე და ეს ყველაფერი უნდა დავწეროთ ამ ფუნქციაში.
