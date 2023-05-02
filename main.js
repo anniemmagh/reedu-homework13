@@ -18,3 +18,12 @@
 
 // 2)დავწეროთ ფუნქცია რომელსაც გადეცემა რაიმე პარამეტრი და არგუმენტად მიიღებს ისეთ რიცხვებს რომლის დახმარებითაც
 //  უნდა გამოვითვალო მაგალითად რამდენი წელი გვაკლდება თითოეულს პენსიამდე და ეს ყველაფერი უნდა დავწეროთ ამ ფუნქციაში.
+
+// function calculator(myAge, retirementAge) {
+//     const year = retirementAge - myAge;
+//     if (year > 0) {
+//       console.log(`You have a ${year} years  until retirement ☠️`);
+//     } 
+//   }
+//   calculator(21, 60);
+
